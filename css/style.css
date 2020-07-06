@@ -1,0 +1,93 @@
+/****************** TAG SELECTORS ***********************/
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+h3 {
+  font-weight: 100;
+}
+
+hr {
+  border-style: none none dotted none;
+  width: 15%;
+  border-width: 8px;
+  color: grey;
+}
+
+body {
+  font-family: Helvetica !important;
+  font-weight: 100;
+  margin: 5% 5%;
+}
+
+label {
+  font-weight: 100;
+}
+
+input[type=submit] {
+  background-color: white;
+  border: none;
+}
+
+div {
+  margin-bottom: 50px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+/****************** CLASS SELECTORS ***********************/
+.link:hover {
+  border-bottom: 1px solid black;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.column1 {
+  display: inline-block;
+  width: 84%;
+  text-align: left;
+}
+
+.column2 {
+  display: inline-block;
+  width: 84%;
+  text-align: right;
+}
+
+.column3 {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.column4 {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.nav-bar {
+  position: fixed;
+}
+
+.infra-weekly-report {
+  width: 40%;
+  height: auto;
+  padding: 15px;
+}
